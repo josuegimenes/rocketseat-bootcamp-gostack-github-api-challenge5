@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import api from '../../services/api';
 
-import Conteiner from '../../components/Conteiner';
+import Container from '../../components/Container';
 import { Loading, Owner, IssueList } from './styles';
 
 export default class Repository extends Component {
@@ -51,7 +51,7 @@ export default class Repository extends Component {
     }
 
     return (
-      <Conteiner>
+      <Container>
         <Owner>
           <Link to="/">Voltar aos repositórios</Link>
           <img src={repository.owner.avatar_url} alt={repository.owner.login} />
@@ -75,7 +75,7 @@ export default class Repository extends Component {
             </li>
           ))}
         </IssueList>
-      </Conteiner>
+      </Container>
     );
   }
 }
