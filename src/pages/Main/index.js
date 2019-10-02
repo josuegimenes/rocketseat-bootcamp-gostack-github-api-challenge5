@@ -11,7 +11,7 @@ export default class Main extends Component {
   state = {
     newRepo: '',
     repositories: [],
-    loading: true,
+    loading: false,
   };
 
   // Carregar os dados do localStorage
