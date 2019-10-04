@@ -101,3 +101,34 @@ export const IssueList = styled.ul`
     }
   }
 `;
+
+export const IssueFilter = styled.div`
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+
+  button {
+    width: 100px;
+    margin: 0;
+    outline: 1;
+    border: 0;
+    padding: 5px;
+    background: transparent;
+    border: 1px solid #7159c1;
+
+    &:nth-child(${props => props.active + 1}) {
+      background: #7159c1;
+      color: white;
+    }
+
+    &:first-child {
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+    }
+
+    &:last-child {
+      border-top-right-radius: 4px;
+      border-bottom-right-radius: 4px;
+    }
+  }
+`;
