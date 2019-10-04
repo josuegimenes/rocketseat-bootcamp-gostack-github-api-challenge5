@@ -43,3 +43,7 @@ https://api.github.com/repos/rocketseat/unform/issues?page=2
 ```
 
 Adicionar apenas um botão de próxima página e página anteior. O botão de página anterior deve ficar desativado na primeira página.
+
+### Desafio Finalizado - Tela da Aplicação
+
+![Repository GitHub](assets-challenge/repository-issues-github-api.gif)
