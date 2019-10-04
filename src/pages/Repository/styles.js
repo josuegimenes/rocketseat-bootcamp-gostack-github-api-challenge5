@@ -110,8 +110,7 @@ export const IssueFilter = styled.div`
   button {
     width: 100px;
     margin: 0;
-    outline: 1;
-    border: 0;
+    outline: 0;
     padding: 5px;
     background: transparent;
     border: 1px solid #7159c1;
@@ -129,6 +128,32 @@ export const IssueFilter = styled.div`
     &:last-child {
       border-top-right-radius: 4px;
       border-bottom-right-radius: 4px;
+    }
+  }
+`;
+
+export const Pagination = styled.div`
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  button {
+    background: transparent;
+    transition: opacity 0.25s ease-out;
+    border-radius: 4px;
+    outline: 0;
+    border: 1px solid #7159c1;
+    padding: 8px;
+
+    &:disabled {
+      opacity: 0.35;
+      cursor: not-allowed;
+    }
+
+    &:hover {
+      background: #7159c1;
+      color: #fff;
     }
   }
 `;
