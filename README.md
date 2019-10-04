@@ -46,4 +46,4 @@ Adicionar apenas um botão de próxima página e página anteior. O botão de p�
 
 ### Desafio Finalizado - Tela da Aplicação
 
-![Facebook](assets-challenge/repository-issues-github-api.gif)
+![Repository GitHub](assets-challenge/repository-issues-github-api.gif)
